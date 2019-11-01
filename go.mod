@@ -5,9 +5,9 @@ module k8s.io/node-api
 go 1.12
 
 require (
-	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v0.0.0
-	k8s.io/code-generator v0.0.0
+	k8s.io/apimachinery v0.0.0-20191030190112-bb31b70367b7
+	k8s.io/client-go v0.0.0-20191101230044-e9766ae82012
+	k8s.io/code-generator v0.0.0-20191029223907-9f431a56fdbc
 )
 
 replace (
@@ -19,9 +19,8 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/code-generator => ../code-generator
-	k8s.io/node-api => ../node-api
+	k8s.io/api => k8s.io/api v0.0.0-20191031065753-b19d8caf39be
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191030190112-bb31b70367b7
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20191101230044-e9766ae82012
+	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20191029223907-9f431a56fdbc
 )
