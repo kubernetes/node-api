@@ -1,4 +1,15 @@
-## Purpose
+# [EOL] Node API
+
+The node-api group was migrated to a built-in API in the
+[k8s.io/api](https://github.com/kubernetes/api) repo with the
+v1.14 release. **This repo is no longer maintained**, and no longer
+synced with core kubernetes as of the v1.18 release.
+
+Please use the `RuntimeClass` types located at
+[k8s.io/api](https://github.com/kubernetes/api), and the generated
+clients located at [k8s.io/client-go](https://github.com/kubernetes/client-go).
+
+## Original Purpose
 
 This repository contains type definitions and client code for the Kubernetes
 APIs in the node.k8s.io API group. These APIs are primarily used by the Kubelet
